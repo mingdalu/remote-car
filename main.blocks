@@ -1,0 +1,14 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="7K_R4C|F=(mJ[lV*g=)Q">Player</variable><variable type="KIND_SpriteKind" id="Slgb)UL_y_#cya:ICeoO">Projectile</variable><variable type="KIND_SpriteKind" id=",Pr4vMKj?;j?!c?PL6t8">Food</variable><variable type="KIND_SpriteKind" id="VDJX!`F=dDJQ-nX}.Pg5">Enemy</variable><variable id="q+AnJBd7Hkwo4)ixnwYx">mySprite</variable><variable id="CTx](TljjxCL;3tz8/wh">mySprite2</variable><variable id="^!$FV=O]fc8v7};B2%}b">跑車</variable></variables><block type="pxt-on-start" id="8`=h}]jcF,qd0]qxY(v)" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="9:4;iA9Cos1|9m~|(diK"><field name="VAR" id="^!$FV=O]fc8v7};B2%}b">跑車</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="?+(g.7.+]6ttZV0~gQmX"><value name="img"><shadow type="screen_image_picker" id="V%|RhBcg/h+%^dIAO9R2"><field name="img">img`
+. . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . 
+. . . . . . 5 5 5 5 . . . . . . . . 
+5 . . . 5 5 5 b d d 5 . . . . . . . 
+5 5 . 5 d b 5 b b b d 5 5 . . . . . 
+b b 5 d b b 5 b b b b b 5 5 5 . . . 
+. 5 5 c c 7 7 7 2 2 2 2 5 c c 5 5 . 
+5 5 c f f c 7 7 7 7 2 2 c f f c 5 5 
+5 c f b b f c 5 7 7 7 c f b b f c 5 
+5 5 f b b f 5 5 5 5 5 5 f b b f 5 5 
+. . . f f . . . . . . . . f f . . . 
+. . . . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="71bT{yiRU?EGDG[Sv%Vk"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="vHXmmpK{LeuXO[-/ssr("><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="rM?k}/xSxzL}k%Z?g*V^"><field name="VAR" id="^!$FV=O]fc8v7};B2%}b">跑車</field></block></value><value name="vx"><shadow type="math_number" id="D+Id|QB6Qk70#c7__sh-"><field name="NUM">100</field></shadow></value><value name="vy"><shadow type="math_number" id="0VrQ)_Ts;*30$P!=AA`G"><field name="NUM">100</field></shadow></value><next><block type="startEffectOnSprite" id="E+myljs03ujbUBVLfKwe"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><field name="effect">effects.warmRadial</field><value name="sprite"><block type="variables_get" id="ZeIG;*;caT2kPCm{Ey2$"><field name="VAR" id="^!$FV=O]fc8v7};B2%}b">跑車</field></block></value><next><block type="mixer_play_sound" id="vm}:Zp6.:6R5~pF)}d~|"><field name="sound">music.baDing</field></block></next></block></next></block></next></block></statement></block></xml>
