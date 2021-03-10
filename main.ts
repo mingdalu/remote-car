@@ -14,4 +14,6 @@ let 跑車 = sprites.create(img`
     `, SpriteKind.Player)
 controller.moveSprite(跑車, 100, 100)
 跑車.startEffect(effects.warmRadial)
+effects.blizzard.startScreenEffect()
 music.baDing.play()
+跑車.setFlag(SpriteFlag.StayInScreen, true)
